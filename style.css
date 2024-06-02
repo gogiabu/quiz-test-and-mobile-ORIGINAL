@@ -802,3 +802,34 @@ body{
     
 
 }
+@media screen and (max-width:320px) {
+    .quiz-section .quiz-box {
+        position: relative;
+        width: 300px !important;
+        background-color: transparent;
+        border: 2px solid #c40094;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px;
+        opacity: 0;
+        pointer-events: none;
+        transform: scale(.9);
+        transition: .3s ease;
+        transition-delay: 0s;
+    
+    }
+    .header{
+        width: 100%;
+        padding: 10px 15px !important;
+        background-color: transparent;
+        display: flex;
+        justify-content: left !important;
+        gap: 30px !important;
+        align-items: center;
+        border-bottom: 2px solid #999;
+        
+    }
+
+}
+
