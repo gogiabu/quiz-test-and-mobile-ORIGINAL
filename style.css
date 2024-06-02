@@ -403,7 +403,7 @@ body{
 @media screen and (max-width:768px) {
 
     .header{
-    border: 1px solid red;
+  
     width: 100%;
     padding: 10px 15px !important;
     background-color: transparent;
@@ -464,7 +464,7 @@ body{
     justify-content: center;
 }
 .home-content{
-    border: 1px solid red;
+
     max-width: 425px !important;
     display: flex;
     align-items: center;
@@ -704,7 +704,7 @@ body{
 }
 .quiz-section .result-box{
     position: absolute;
-    top: 25% !important;
+    top: 35% !important;
     left: 50%;
     transform: translate(-50%, -50%) scale(.9);
     width: 420px !important;
